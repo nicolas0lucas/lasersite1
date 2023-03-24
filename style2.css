@@ -1,0 +1,162 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+
+
+.headline {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+.logo{
+  margin-left: 160px;
+  margin-top: 10px;
+ 
+ 
+ }
+ 
+ .topnav {
+     overflow: hidden;
+     background-color: rgb(0, 41, 95);
+   }
+   
+   .topnav a {
+     float: right;
+     display:inline-block;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 14px 20px;
+     text-decoration: none;
+     font-size: 20px;
+    margin-top: 30px;
+    margin-right: 10px;
+   }
+   
+   
+   .topnav .icon {
+     display: none;
+   }
+    
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+    
+    .dropdown .dropbtn {
+      font-size: 1px;    
+      border: none;
+      outline: none;
+      color: white;
+      padding: 4px 6px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .topnav a:hover, .dropdown:hover .dropbtn {
+      background-color: rgb(43, 135, 255);
+      color: white;
+      padding: 20px;
+    }
+    
+  
+  
+  #navbar-items {
+      display: flex;
+      list-style: none;
+      text-transform: uppercase;
+  }
+ * {
+     box-sizing: border-box;
+   }
+
+
+#features2 {
+    width: 100%;
+    background: rgb(44, 44, 44) ;
+    color: rgb(255, 255, 255);;
+    padding: 20px;
+}
+
+#features2-container {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-column-gap: 50px;
+}
+
+.feature2 {
+    display: flex;
+    flex-direction: column;
+    background: rgb(97, 96, 96);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.feature2-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.saibamais{
+  color: rgb(255, 255, 255);
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color:rgb(0, 28, 65);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.saibamais:hover{
+  cursor: pointer;
+  background-color: rgba(255, 255, 0, 0.418);
+  color: black;
+  
+}
+
+#footer {
+    background: rgb(0, 28, 65);
+    color: #eee;
+    padding: 30px;
+    text-align: center;
+}

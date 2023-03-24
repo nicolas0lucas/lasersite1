@@ -1,0 +1,276 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    background: rgb(0, 41, 95);
+    color: #eee;
+    border-radius: 50px;
+    transition: background 500ms ease;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: rgb(83, 140, 245);
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.col-100 {
+    width: 20%;
+    float: center;
+    position: relative;
+}
+
+.bloco-logos {
+    height: 170px;
+}
+
+.bloco-logos img {
+    margin: left 100px;
+    margin-top: 50px;
+}
+
+
+.headline {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+    color: #eee;
+    background-color: rgb(0, 41, 95);
+}
+
+.headline2 {
+    width: 100%;
+    color: rgb(0, 41, 95);
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #eee;
+}
+.headline3 {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+.logo{
+ margin-left: 160px;
+ margin-top: 10px;
+
+
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(0, 41, 95);
+  }
+  
+  .topnav a {
+    float: right;
+    display:inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 20px;
+   margin-top: 30px;
+   margin-right:10px ;
+  }
+  
+  
+  .topnav .icon {
+    display: none;
+  }
+   
+   .dropdown {
+     float: left;
+     overflow: hidden;
+   }
+   
+   .dropdown .dropbtn {
+     font-size: 1px;    
+     border: none;
+     outline: none;
+     color: white;
+     padding: 4px 6px;
+     background-color: inherit;
+     font-family: inherit;
+     margin: 0;
+   }
+   
+   .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: #f9f9f9;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+   }
+   
+   .dropdown-content a {
+     float: none;
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+     text-align: left;
+   }
+   
+   .topnav a:hover, .dropdown:hover .dropbtn {
+     background-color: rgb(43, 135, 255);
+     color: white;
+     padding: 20px;
+   }
+   
+ 
+ 
+ #navbar-items {
+     display: flex;
+     list-style: none;
+     text-transform: uppercase;
+ }
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+
+  #features2 {
+    width: 100%;
+    background: rgb(44, 44, 44) ;
+    color: rgb(255, 255, 255);;
+    padding: 20px;
+}
+
+#features2-container {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-column-gap: px;
+}
+
+.feature2 {
+    display: flex;
+    flex-direction: column;
+    background: rgb(97, 96, 96);
+    padding: 20px;
+    border-radius: 0px;
+}
+
+.feature2-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    background-color: #333;
+  }
+  
+  .column img {
+    margin-top: 12px;
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
+#footer {
+    background: rgb(0, 28, 65);
+    color: #eee;
+    padding: 30px;
+    text-align: center;
+    margin-top:px ;
+}
+.image-one:hover {
+    box-shadow: 0 2rem 3rem rgb(88, 88, 88);
+    transition: 0.3s;
+
+}
+
+.card {
+    padding-bottom: 10px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.card:hover {
+    box-shadow: 0 2rem 3rem rgb(109, 109, 109);
+    transition: 0.3s;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+}
+
+#limbo{
+    background-color:  rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    
+}
+
+.texto {
+    text-align: center;
+    display: inline-block;
+    padding: 20px 60px;
+    text-transform: uppercase;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    transition: background 500ms ease;
+
+}
+
+.imgnoticia{
+width: 30%;
+
+}
+
+.video{
+padding-bottom: 75%;
+    
+}
